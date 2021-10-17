@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.85% 10%;
+    background: #1c242d;
+    
+}
+.navbar{
+    min-height: 81vh;
+    background-image: url(images/background.jpg);
+    
+}
+.navbar a{
+    font-size: 17px;
+    font-weight: 500;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 9%;
+    position: absolute;
+    left:3%
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 15px;
+} 
+
+.text-box{
+    width: 100%;
+    color: #fff;
+    position:absolute;
+    top:30%;
+    left:5%;
+    text-align: left;
+}
+.text-box h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 450;
+}
+.text-box p{
+    margin: 20px 0 40px;
+    font-weight: 300;
+    width: 35%;
+    font-size: 21px;
+    color: #fff;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 17px;
+    width: 280px;
+    border-radius: 2px;
+    background: #0c7cac;
+    position: relative;
+    cursor: pointer;
+}
+.main{
+    display: grid;
+    position: absolute;
+    right: 2%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 50vw;
+    grid-template-columns: repeat(auto-fill, minmax(215px,215px) );
+}
+.main img{
+    width: 200px;
+    height: 157px;
+    object-fit: cover;
+    object-position: center;
+    padding: 8px 0;
+    transition: 0.3s all;
+}
+.main img:hover{
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgb(46, 45, 48);
+}
+.second-page{
+    min-height: 70vh;
+}
+.text-box2{
+    width: 100%;
+    color: #000;
+    position:absolute;
+    top:95%;
+    left:5%;
+    text-align: left;
+}
+.text-box2 h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 450;
+    width: 40%;
+}
+.text-box2 p{
+    margin: 20px 0 40px;
+    font-weight: 300;
+    width: 38%;
+    font-size: 21px;
+    color: #000;
+}
+.third-page{
+    min-height: 70vh;
+    background-image: url(images/third.jpeg)
+}
+.text-box3{
+    width: 100%;
+    color: #fff;
+    position:absolute;
+    top:170%;
+    left:5%;
+    text-align: left;
+}
+.text-box3 h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 450;
+    width: 40%;
+}
+.text-box3 p{
+    margin: 20px 0 40px;
+    font-weight: 300;
+    width: 40%;
+    font-size: 21px;
+    color: #fff;
+}
+.fourth-page{
+    min-height: 70vh;
+    background-image: url(images/img6.png);
+}
+.fourth-page img{
+    width:890px;
+}
+.text-box4{
+    width: 100%;
+    color: #fff;
+    position:absolute;
+    top:240%;
+    left:57%;
+    text-align: left;
+}
+.text-box4 h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 450;
+    width: 40%;
+}
+.text-box4 p{
+    margin: 20px 0 40px;
+    font-weight: 300;
+    width: 39%;
+    font-size: 21px;
+    color: #fff;
+}
+.fifth-page{
+    min-height: 70vh;
+}
+.row{
+    margin: 4% 8%;
+    display:flex;
+    justify-content: space-between;   
+}
+h3{
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+.place-col p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 25px;
+    padding: 10px;
+    width: 75%;
+}
+
+.sixth-page{
+    min-height: 70vh;
+    background-image: url(images/sixth.jpeg);
+}
+.sixth-page img{
+    width:890px;  
+}
+.text-box6{
+    width: 100%;
+    color: #fff;
+    position:absolute;
+    top:400%;
+    left:5%;
+    text-align: left;
+}
+.text-box6 h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 450;
+    width: 40%;
+}
+.text-box6 p{
+    margin: 20px 0 40px;
+    font-weight: 300;
+    width: 40%;
+    font-size: 21px;
+    color: #fff;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    padding: 1.85% 0;
+    background: #222;   
+}
+.footer-content{
+    font-size: 15px;
+    display: inline;
+    font-weight: 200;
+    color: rgb(231, 225, 225);
+}
+.footer-content a{
+    display: inline;
+    justify-content: space-between;
+    padding: 0 5px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #0c7cac;
+}
+
+
+
+
